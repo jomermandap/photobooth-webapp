@@ -27,23 +27,3 @@ An underwater-themed photobooth web application built with vanilla HTML, CSS, an
 
 3. Allow camera access when prompted.
 
-
-## Project Structure
-photobooth-webapp/
-├── Assets/
-│   └── fish-photobooth/
-├── Javascripts/
-│   ├── bubbles.js
-│   ├── camera.js
-│   ├── final.js
-│   └── upload.js
-├── StyleSheets/
-│   ├── camera.css
-│   ├── final.css
-│   └── home.css
-├── .DS_Store
-├── camera.html
-├── final.html
-├── index.html
-├── menu.html
-└── upload.html
