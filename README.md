@@ -27,3 +27,12 @@ An underwater-themed photobooth web application built with vanilla HTML, CSS, an
 
 3. Allow camera access when prompted.
 
+## License
+
+This project is licensed for **educational and personal use only**.  
+
+- Users are free to **view, modify, and add to the code** for learning or personal projects. 
+- **Commercial use is strictly prohibited**: you may **not sell, distribute, or use this code** in any commercial product or for-profit purpose.  
+- Any modifications or additions must also comply with this license and cannot be used commercially.  
+
+By using this project, you agree to these terms.
