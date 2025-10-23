@@ -50,7 +50,7 @@ p {
 #canvasContainer {
   position: relative;
   margin-top: 20px;
-  width: 30vw;
+  width: 25vw;
   max-width: 90vw;
   display: flex;
   justify-content: center;
@@ -60,7 +60,7 @@ p {
 /* mobile */
 @media (max-width: 768px) {
   #canvasContainer {
-    width: 80vw;
+    width: 70vw;
     max-width: 90vw;
   }
 }

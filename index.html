@@ -3,32 +3,55 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nashallery's Booth</title>
+  <title>Fish Photobooth</title>
 
   <!-- Favicon -->
   <link rel="icon" href="Assets/fish-photobooth/favicon.png" type="image/x-icon" />
   <link rel="stylesheet" href="StyleSheets/home.css" />
 </head>
 <body>
-  <div class="logo">
-    <img src="Assets/fish-photobooth/logo-new.png" alt="Logo">
-  </div>
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">
+      <img src="Assets/fish-photobooth/logo-new.png" alt="Fish Photobooth Logo">
+    </div>
+    <h1>Fish Photobooth</h1>
+    <p>Create amazing underwater-themed photo strips</p>
+  </header>
 
-  <!-- Main Container -->
-  <div class="home-container">
-    <div class="photobooth-container">
-      <div class="photobooth-mock"></div>
-      <div class="photostrip-mock"></div>
-      <div class="bubbles-mock"></div>
-      <div class="fish-mock-1"></div>
-      <div class="fish-mock-2"></div>
-      <div class="fish-mock-3"></div>
+  <!-- Main Content -->
+  <main class="main-content">
+    <div class="preview-container">
+      <div class="phone-mockup">
+        <div class="screen">
+          <div class="camera-preview"></div>
+          <div class="frame-overlay"></div>
+        </div>
+      </div>
     </div>
 
-    <div class="button-container">
-      <button id="select-button">Select</button>
+    <div class="features">
+      <div class="feature">
+        <div class="feature-icon">📸</div>
+        <h3>Live Camera</h3>
+        <p>Take photos with your device camera</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">📁</div>
+        <h3>Upload Photos</h3>
+        <p>Use your existing photos</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">🐠</div>
+        <h3>Marine Stickers</h3>
+        <p>Add fish, bubbles, and sea creatures</p>
+      </div>
     </div>
-  </div>
+
+    <div class="cta-section">
+      <button id="start-button" class="start-button">Start Creating</button>
+    </div>
+  </main>
 
   <!-- Main JS -->
   <script src="Javascripts/home.js"></script>

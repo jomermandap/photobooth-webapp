@@ -1,5 +1,5 @@
 // constants
-const WIDTH = 1176, HEIGHT = 1470;
+const WIDTH = 1080, HEIGHT = 1920;
 
 // dom elements
 const canvas = document.getElementById('finalCanvas'),
